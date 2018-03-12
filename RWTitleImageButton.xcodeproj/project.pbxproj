@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		309CD5D22056A98F000E9BDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 309CD5D12056A98F000E9BDE /* AppDelegate.m */; };
+		309CD5D52056A990000E9BDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 309CD5D42056A990000E9BDE /* ViewController.m */; };
+		309CD5D82056A990000E9BDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309CD5D62056A990000E9BDE /* Main.storyboard */; };
+		309CD5DA2056A991000E9BDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309CD5D92056A991000E9BDE /* Assets.xcassets */; };
+		309CD5DD2056A992000E9BDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309CD5DB2056A992000E9BDE /* LaunchScreen.storyboard */; };
+		309CD5E02056A992000E9BDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 309CD5DF2056A992000E9BDE /* main.m */; };
+		309CD5EA2056A993000E9BDE /* RWTitleImageButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 309CD5E92056A993000E9BDE /* RWTitleImageButtonTests.m */; };
+		309CD5F52056A994000E9BDE /* RWTitleImageButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 309CD5F42056A994000E9BDE /* RWTitleImageButtonUITests.m */; };
+		309CD6042056A9B8000E9BDE /* RWTitleImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 309CD6032056A9B8000E9BDE /* RWTitleImageButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		309CD5E62056A992000E9BDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 309CD5C52056A98E000E9BDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 309CD5CC2056A98E000E9BDE;
+			remoteInfo = RWTitleImageButton;
+		};
+		309CD5F12056A994000E9BDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 309CD5C52056A98E000E9BDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 309CD5CC2056A98E000E9BDE;
+			remoteInfo = RWTitleImageButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		309CD5CD2056A98E000E9BDE /* RWTitleImageButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RWTitleImageButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		309CD5D02056A98F000E9BDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		309CD5D12056A98F000E9BDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		309CD5D32056A98F000E9BDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		309CD5D42056A990000E9BDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		309CD5D72056A990000E9BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		309CD5D92056A991000E9BDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		309CD5DC2056A992000E9BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		309CD5DE2056A992000E9BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		309CD5DF2056A992000E9BDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		309CD5E52056A992000E9BDE /* RWTitleImageButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWTitleImageButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		309CD5E92056A993000E9BDE /* RWTitleImageButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTitleImageButtonTests.m; sourceTree = "<group>"; };
+		309CD5EB2056A993000E9BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		309CD5F02056A994000E9BDE /* RWTitleImageButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWTitleImageButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		309CD5F42056A994000E9BDE /* RWTitleImageButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTitleImageButtonUITests.m; sourceTree = "<group>"; };
+		309CD5F62056A995000E9BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		309CD6022056A9B8000E9BDE /* RWTitleImageButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWTitleImageButton.h; sourceTree = "<group>"; };
+		309CD6032056A9B8000E9BDE /* RWTitleImageButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWTitleImageButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		309CD5CA2056A98E000E9BDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309CD5E22056A992000E9BDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309CD5ED2056A993000E9BDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		309CD5C42056A98E000E9BDE = {
+			isa = PBXGroup;
+			children = (
+				309CD5CF2056A98F000E9BDE /* RWTitleImageButton */,
+				309CD5E82056A992000E9BDE /* RWTitleImageButtonTests */,
+				309CD5F32056A994000E9BDE /* RWTitleImageButtonUITests */,
+				309CD5CE2056A98E000E9BDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		309CD5CE2056A98E000E9BDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				309CD5CD2056A98E000E9BDE /* RWTitleImageButton.app */,
+				309CD5E52056A992000E9BDE /* RWTitleImageButtonTests.xctest */,
+				309CD5F02056A994000E9BDE /* RWTitleImageButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		309CD5CF2056A98F000E9BDE /* RWTitleImageButton */ = {
+			isa = PBXGroup;
+			children = (
+				309CD5D02056A98F000E9BDE /* AppDelegate.h */,
+				309CD5D12056A98F000E9BDE /* AppDelegate.m */,
+				309CD5D32056A98F000E9BDE /* ViewController.h */,
+				309CD5D42056A990000E9BDE /* ViewController.m */,
+				309CD6022056A9B8000E9BDE /* RWTitleImageButton.h */,
+				309CD6032056A9B8000E9BDE /* RWTitleImageButton.m */,
+				309CD5D62056A990000E9BDE /* Main.storyboard */,
+				309CD5D92056A991000E9BDE /* Assets.xcassets */,
+				309CD5DB2056A992000E9BDE /* LaunchScreen.storyboard */,
+				309CD5DE2056A992000E9BDE /* Info.plist */,
+				309CD5DF2056A992000E9BDE /* main.m */,
+			);
+			path = RWTitleImageButton;
+			sourceTree = "<group>";
+		};
+		309CD5E82056A992000E9BDE /* RWTitleImageButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				309CD5E92056A993000E9BDE /* RWTitleImageButtonTests.m */,
+				309CD5EB2056A993000E9BDE /* Info.plist */,
+			);
+			path = RWTitleImageButtonTests;
+			sourceTree = "<group>";
+		};
+		309CD5F32056A994000E9BDE /* RWTitleImageButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				309CD5F42056A994000E9BDE /* RWTitleImageButtonUITests.m */,
+				309CD5F62056A995000E9BDE /* Info.plist */,
+			);
+			path = RWTitleImageButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		309CD5CC2056A98E000E9BDE /* RWTitleImageButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309CD5F92056A995000E9BDE /* Build configuration list for PBXNativeTarget "RWTitleImageButton" */;
+			buildPhases = (
+				309CD5C92056A98E000E9BDE /* Sources */,
+				309CD5CA2056A98E000E9BDE /* Frameworks */,
+				309CD5CB2056A98E000E9BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RWTitleImageButton;
+			productName = RWTitleImageButton;
+			productReference = 309CD5CD2056A98E000E9BDE /* RWTitleImageButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		309CD5E42056A992000E9BDE /* RWTitleImageButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309CD5FC2056A995000E9BDE /* Build configuration list for PBXNativeTarget "RWTitleImageButtonTests" */;
+			buildPhases = (
+				309CD5E12056A992000E9BDE /* Sources */,
+				309CD5E22056A992000E9BDE /* Frameworks */,
+				309CD5E32056A992000E9BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				309CD5E72056A992000E9BDE /* PBXTargetDependency */,
+			);
+			name = RWTitleImageButtonTests;
+			productName = RWTitleImageButtonTests;
+			productReference = 309CD5E52056A992000E9BDE /* RWTitleImageButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		309CD5EF2056A993000E9BDE /* RWTitleImageButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309CD5FF2056A995000E9BDE /* Build configuration list for PBXNativeTarget "RWTitleImageButtonUITests" */;
+			buildPhases = (
+				309CD5EC2056A993000E9BDE /* Sources */,
+				309CD5ED2056A993000E9BDE /* Frameworks */,
+				309CD5EE2056A993000E9BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				309CD5F22056A994000E9BDE /* PBXTargetDependency */,
+			);
+			name = RWTitleImageButtonUITests;
+			productName = RWTitleImageButtonUITests;
+			productReference = 309CD5F02056A994000E9BDE /* RWTitleImageButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		309CD5C52056A98E000E9BDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wangchangyang;
+				TargetAttributes = {
+					309CD5CC2056A98E000E9BDE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					309CD5E42056A992000E9BDE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 309CD5CC2056A98E000E9BDE;
+					};
+					309CD5EF2056A993000E9BDE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 309CD5CC2056A98E000E9BDE;
+					};
+				};
+			};
+			buildConfigurationList = 309CD5C82056A98E000E9BDE /* Build configuration list for PBXProject "RWTitleImageButton" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 309CD5C42056A98E000E9BDE;
+			productRefGroup = 309CD5CE2056A98E000E9BDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				309CD5CC2056A98E000E9BDE /* RWTitleImageButton */,
+				309CD5E42056A992000E9BDE /* RWTitleImageButtonTests */,
+				309CD5EF2056A993000E9BDE /* RWTitleImageButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		309CD5CB2056A98E000E9BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309CD5DD2056A992000E9BDE /* LaunchScreen.storyboard in Resources */,
+				309CD5DA2056A991000E9BDE /* Assets.xcassets in Resources */,
+				309CD5D82056A990000E9BDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309CD5E32056A992000E9BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309CD5EE2056A993000E9BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		309CD5C92056A98E000E9BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309CD5D52056A990000E9BDE /* ViewController.m in Sources */,
+				309CD6042056A9B8000E9BDE /* RWTitleImageButton.m in Sources */,
+				309CD5E02056A992000E9BDE /* main.m in Sources */,
+				309CD5D22056A98F000E9BDE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309CD5E12056A992000E9BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309CD5EA2056A993000E9BDE /* RWTitleImageButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309CD5EC2056A993000E9BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309CD5F52056A994000E9BDE /* RWTitleImageButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		309CD5E72056A992000E9BDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 309CD5CC2056A98E000E9BDE /* RWTitleImageButton */;
+			targetProxy = 309CD5E62056A992000E9BDE /* PBXContainerItemProxy */;
+		};
+		309CD5F22056A994000E9BDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 309CD5CC2056A98E000E9BDE /* RWTitleImageButton */;
+			targetProxy = 309CD5F12056A994000E9BDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		309CD5D62056A990000E9BDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				309CD5D72056A990000E9BDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		309CD5DB2056A992000E9BDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				309CD5DC2056A992000E9BDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		309CD5F72056A995000E9BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		309CD5F82056A995000E9BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		309CD5FA2056A995000E9BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Q2J5575DAC;
+				INFOPLIST_FILE = RWTitleImageButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.etouch.ecalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e0f1ee91-c61a-436c-8372-61f8ca5a3f1d";
+				PROVISIONING_PROFILE_SPECIFIER = ECalendar_Dev_2017;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		309CD5FB2056A995000E9BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Q2J5575DAC;
+				INFOPLIST_FILE = RWTitleImageButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.etouch.ecalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5c67150c-0574-4ab3-bf35-8350049a59c9";
+				PROVISIONING_PROFILE_SPECIFIER = Ecalendar_20120112_dis;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		309CD5FD2056A995000E9BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RWTitleImageButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wchyang.RWTitleImageButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RWTitleImageButton.app/RWTitleImageButton";
+			};
+			name = Debug;
+		};
+		309CD5FE2056A995000E9BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RWTitleImageButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wchyang.RWTitleImageButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RWTitleImageButton.app/RWTitleImageButton";
+			};
+			name = Release;
+		};
+		309CD6002056A995000E9BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RWTitleImageButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wchyang.RWTitleImageButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RWTitleImageButton;
+			};
+			name = Debug;
+		};
+		309CD6012056A995000E9BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RWTitleImageButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wchyang.RWTitleImageButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RWTitleImageButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		309CD5C82056A98E000E9BDE /* Build configuration list for PBXProject "RWTitleImageButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309CD5F72056A995000E9BDE /* Debug */,
+				309CD5F82056A995000E9BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		309CD5F92056A995000E9BDE /* Build configuration list for PBXNativeTarget "RWTitleImageButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309CD5FA2056A995000E9BDE /* Debug */,
+				309CD5FB2056A995000E9BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		309CD5FC2056A995000E9BDE /* Build configuration list for PBXNativeTarget "RWTitleImageButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309CD5FD2056A995000E9BDE /* Debug */,
+				309CD5FE2056A995000E9BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		309CD5FF2056A995000E9BDE /* Build configuration list for PBXNativeTarget "RWTitleImageButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309CD6002056A995000E9BDE /* Debug */,
+				309CD6012056A995000E9BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 309CD5C52056A98E000E9BDE /* Project object */;
+}
